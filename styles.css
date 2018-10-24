@@ -1,5 +1,64 @@
-#main-img {
-    max-height: 750px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 75px;
+    background: #efefef;
+  }
+  
+  #main {
+      margin: 20px auto;
+      width: 850px;
+  }
+  
+  #header {
+    text-align: center;
+  }
+  
+  #title {
+    font-size: 56px;
+    text-transform: uppercase;
+    color: #333;
+  }
+  
+  #quote {
+    font-size: 21px;
+    color: #777;
+  }
+  
+  #img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+  }
+  
+  #image {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    padding-bottom: 40px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  #img-caption {
+    color: #999;
+  }
+  
+  #tribute-info {
+    margin: 20px auto;
     max-width: 100%;
-    padding: 75px 0 75px 0;
-}
+    background: #fff;
+  }
+  
+  #tribute-info li {
+    border: 1px solid #ddd;
+    padding: 20px;
+    list-style: none;
+  }
